@@ -8,6 +8,9 @@ import io.reactivex.disposables.Disposable;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 支持周期性和延时操作
+ */
 public class RxTimer {
 
     private Disposable mDisposable;

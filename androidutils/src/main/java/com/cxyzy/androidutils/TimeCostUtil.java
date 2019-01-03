@@ -5,6 +5,9 @@ import androidx.annotation.NonNull;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 方便计算方法执行耗时
+ */
 public class TimeCostUtil {
     private static Map<String, Long> startTimeMap = new HashMap<>();
     private static final String DEFAULT_KEY = "DEFAULT_KEY";
